@@ -1,7 +1,5 @@
-from fastapi import FastAPI
-
-app = FastAPI()
+from router.routes import *
 
 @app.get('/')
-def read_root():
-    return {"Hello": "World"}
+async def index():
+    return {"status": 400}

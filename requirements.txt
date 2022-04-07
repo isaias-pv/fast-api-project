@@ -2,3 +2,7 @@ fastapi
 uvicorn
 requests
 pydantic
+peewee
+mysql-connector
+pymysql
+pydantic[email]
